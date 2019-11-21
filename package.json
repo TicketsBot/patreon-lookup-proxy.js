@@ -1,0 +1,17 @@
+{
+  "name": "patreon-lookup-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "patreon": "^0.4.1",
+    "toml": "^3.0.0"
+  }
+}

@@ -9,7 +9,7 @@ global.patrons = {}
 require('./poll.js')(config)
 setInterval(() => {
   require('./poll.js')(config)
-}, 2000)
+}, 15000)
 
 const app = express()
 require('./endpoints/ispremium.js')(config,app)

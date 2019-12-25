@@ -13,6 +13,7 @@ setInterval(() => {
 
 const app = express()
 require('./endpoints/ispremium.js')(config,app)
+require('./endpoints/ping.js')(app)
 
 var split = config.server.host.split(":")
 app.listen(parseInt(split[1]), split[0], () => console.log(`Listening on ${config.server.host}`))
